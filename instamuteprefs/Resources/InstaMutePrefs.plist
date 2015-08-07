@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.jake0oo0.instamute</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>defaults</key>
+			<string>com.jake0oo0.instamute</string>
+			<key>detail</key>
+			<string>EditableListController</string>
+			<key>isController</key>
+        	<true/>
+			<key>key</key>
+			<string>muted_users</string>
+			<key>label</key>
+			<string>Muted Users</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>InstaMute</string>
+</dict>
+</plist>
