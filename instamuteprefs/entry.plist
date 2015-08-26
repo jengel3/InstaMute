@@ -3,7 +3,7 @@
 	bundle = InstaMutePrefs;
 	cell = PSLinkCell;
 	detail = InstaMutePrefsListController;
-	icon = icon.png;
+	icon = InstaMute.png;
 	isController = 1;
 	label = InstaMute;
     };
