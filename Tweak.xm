@@ -61,7 +61,7 @@ static void loadPrefs() {
 
 %hook IGMainFeedViewController
 -(BOOL)shouldHideFeedItem:(IGFeedItem *)item {
-	if ([muted containsObject:item.user.username] or [item isHidden]) {
+	if ([muted containsObject:item.user.username]) {
 		return YES;
 	} else {
 		return %orig;

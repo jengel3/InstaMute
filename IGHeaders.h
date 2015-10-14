@@ -12,9 +12,7 @@
 
 @interface IGFeedItem : IGPost
 -(id)description;
--(BOOL)isHidden;
 -(id)getMediaId;
--(void)setIsHidden:(BOOL)hidden;
 -(id)initWithCoder:(id)fp8;
 @end
 

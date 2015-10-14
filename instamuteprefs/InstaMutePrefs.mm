@@ -1,7 +1,6 @@
 #import <Preferences/Preferences.h>
 
-@interface InstaMutePrefsListController: PSListController {
-}
+@interface InstaMutePrefsListController: PSListController
 @end
 
 @implementation InstaMutePrefsListController
@@ -21,7 +20,7 @@
 	if (!_specifiers) {
 		NSMutableArray *specs = [[NSMutableArray alloc] init];
 		NSMutableDictionary *prefs = [[NSMutableDictionary alloc] initWithContentsOfFile:@"/var/mobile/Library/Preferences/com.jake0oo0.instamute.plist"];
-      	NSArray *keys = [prefs objectForKey:@"muted_users"];
+    NSArray *keys = [prefs objectForKey:@"muted_users"];
 		for (id o in keys) {
 	    	PSSpecifier* defSpec = [PSSpecifier preferenceSpecifierNamed:o
 										    target:self
@@ -49,4 +48,3 @@
 
 @end
 
-// vim:ft=objc

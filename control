@@ -1,7 +1,7 @@
 Package: com.jake0oo0.instamute
 Name: InstaMute
 Depends: mobilesubstrate
-Version: 1.0.2
+Version: 1.0.3
 Architecture: iphoneos-arm
 Description: Mute Instagram Followers
 Maintainer: Jake0oo0 <jaek0oo0dev@gmail.com>
