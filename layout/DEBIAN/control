@@ -1,0 +1,10 @@
+Package: com.jake0oo0.instamute
+Name: InstaMute
+Depends: mobilesubstrate
+Conflicts: com.jake0oo0.instabetter
+Version: 1.1.0
+Architecture: iphoneos-arm
+Description: Mute users from your Instagram feed
+Maintainer: Jake0oo0 <jake0oo0dev@gmail.com>
+Author: Jake0oo0 <jake0oo0dev@gmail.com>
+Section: Tweaks

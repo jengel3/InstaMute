@@ -1,10 +1,10 @@
 {
     entry = {
-	bundle = InstaMutePrefs;
-	cell = PSLinkCell;
-	detail = InstaMutePrefsListController;
-	icon = InstaMute.png;
-	isController = 1;
-	label = InstaMute;
+		bundle = InstaMutePrefs;
+		cell = PSLinkCell;
+		detail = InstaMutePrefsListController;
+		icon = InstaMute.png;
+		isController = 1;
+		label = InstaMute;
     };
 }

@@ -5,7 +5,8 @@ THEOS_PACKAGE_DIR_NAME = debs
 include theos/makefiles/common.mk
 
 TWEAK_NAME = InstaMute
-InstaMute_FILES = Tweak.xm
+InstaMute_FILES = Tweak.xm InstaHelper.xm
+InstaBetter_LDFLAGS += -Wl,-segalign,4000
 InstaMute_FRAMEWORKS = UIKit Foundation
 
 include $(THEOS_MAKE_PATH)/tweak.mk
